@@ -1,0 +1,156 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/apps/ms-user-0.0.1.jar!/BOOT-INF/lib/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/apps/ms-user-0.0.1.jar!/BOOT-INF/lib/slf4j-jdk14-1.7.28.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+18:59:21.461 [main] INFO org.springframework.core.KotlinDetector - Kotlin reflection implementation not found at runtime, related features won't be available.
+2021-10-12 18:59:29.275  WARN 1 --- [kground-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.8.RELEASE)
+
+2021-10-12 18:59:34.667  INFO 1 --- [           main] com.cadena.provider.MsUserApplication    : Starting MsUserApplication v0.0.1 on ms-user-microservice-4286741894-9bjrk with PID 1 (/usr/apps/ms-user-0.0.1.jar started by root in /usr/apps)
+2021-10-12 18:59:34 [main] INFO  c.cadena.provider.MsUserApplication -
+				Starting MsUserApplication v0.0.1 on ms-user-microservice-4286741894-9bjrk with PID 1 (/usr/apps/ms-user-0.0.1.jar started by root in /usr/apps)
+2021-10-12 18:59:34.669  INFO 1 --- [           main] com.cadena.provider.MsUserApplication    : No active profile set, falling back to default profiles: default
+2021-10-12 18:59:34 [main] INFO  c.cadena.provider.MsUserApplication -
+				No active profile set, falling back to default profiles: default
+2021-10-12 18:59:41.656  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-12 18:59:41 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-12 18:59:43.376  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1701ms. Found 1 repository interfaces.
+2021-10-12 18:59:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 1701ms. Found 1 repository interfaces.
+2021-10-12 18:59:43.383  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-12 18:59:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-12 18:59:43.566  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 182ms. Found 4 repository interfaces.
+2021-10-12 18:59:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 182ms. Found 4 repository interfaces.
+2021-10-12 18:59:48.884  INFO 1 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[mongodb0.sunat.peru:27017, mongodb1.sunat.peru:27017, mongodb2.sunat.peru:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500, requiredReplicaSetName='sunatRS0'}
+2021-10-12 18:59:48 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[mongodb0.sunat.peru:27017, mongodb1.sunat.peru:27017, mongodb2.sunat.peru:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500, requiredReplicaSetName='sunatRS0'}
+2021-10-12 18:59:48.885  INFO 1 --- [           main] org.mongodb.driver.cluster               : Adding discovered server mongodb0.sunat.peru:27017 to client view of cluster
+2021-10-12 18:59:48 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server mongodb0.sunat.peru:27017 to client view of cluster
+2021-10-12 18:59:49.155  INFO 1 --- [           main] org.mongodb.driver.cluster               : Adding discovered server mongodb1.sunat.peru:27017 to client view of cluster
+2021-10-12 18:59:49 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server mongodb1.sunat.peru:27017 to client view of cluster
+2021-10-12 18:59:49.162  INFO 1 --- [           main] org.mongodb.driver.cluster               : Adding discovered server mongodb2.sunat.peru:27017 to client view of cluster
+2021-10-12 18:59:49 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server mongodb2.sunat.peru:27017 to client view of cluster
+2021-10-12 18:59:49.662  INFO 1 --- [unat.peru:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:94756}] to mongodb1.sunat.peru:27017
+2021-10-12 18:59:49.770  INFO 1 --- [unat.peru:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:122718}] to mongodb0.sunat.peru:27017
+2021-10-12 18:59:49 [cluster-ClusterId{value='6165db24dfff4500012eb0c0', description='null'}-mongodb1.sunat.peru:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:3, serverValue:94756}] to mongodb1.sunat.peru:27017
+2021-10-12 18:59:49 [cluster-ClusterId{value='6165db24dfff4500012eb0c0', description='null'}-mongodb0.sunat.peru:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:1, serverValue:122718}] to mongodb0.sunat.peru:27017
+2021-10-12 18:59:49.776  INFO 1 --- [unat.peru:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mongodb1.sunat.peru:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 8]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5741501, setName='sunatRS0', canonicalAddress=mongodb1.sunat.peru:27017, hosts=[mongodb0.sunat.peru:27017], passives=[mongodb1.sunat.peru:27017, mongodb2.sunat.peru:27017], arbiters=[], primary='mongodb0.sunat.peru:27017', tagSet=TagSet{[]}, electionId=null, setVersion=5, lastWriteDate=Tue Oct 12 18:59:41 GMT 2021, lastUpdateTimeNanos=4060852632978222}
+2021-10-12 18:59:49 [cluster-ClusterId{value='6165db24dfff4500012eb0c0', description='null'}-mongodb1.sunat.peru:27017] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=mongodb1.sunat.peru:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 8]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5741501, setName='sunatRS0', canonicalAddress=mongodb1.sunat.peru:27017, hosts=[mongodb0.sunat.peru:27017], passives=[mongodb1.sunat.peru:27017, mongodb2.sunat.peru:27017], arbiters=[], primary='mongodb0.sunat.peru:27017', tagSet=TagSet{[]}, electionId=null, setVersion=5, lastWriteDate=Tue Oct 12 18:59:41 GMT 2021, lastUpdateTimeNanos=4060852632978222}
+2021-10-12 18:59:49.777  INFO 1 --- [unat.peru:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:95567}] to mongodb2.sunat.peru:27017
+2021-10-12 18:59:49.780  INFO 1 --- [unat.peru:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mongodb0.sunat.peru:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 8]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10133296, setName='sunatRS0', canonicalAddress=mongodb0.sunat.peru:27017, hosts=[mongodb0.sunat.peru:27017], passives=[mongodb1.sunat.peru:27017, mongodb2.sunat.peru:27017], arbiters=[], primary='mongodb0.sunat.peru:27017', tagSet=TagSet{[]}, electionId=7fffffff000000000000001d, setVersion=5, lastWriteDate=Tue Oct 12 18:59:41 GMT 2021, lastUpdateTimeNanos=4060852638108950}
+2021-10-12 18:59:49 [cluster-ClusterId{value='6165db24dfff4500012eb0c0', description='null'}-mongodb2.sunat.peru:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:2, serverValue:95567}] to mongodb2.sunat.peru:27017
+2021-10-12 18:59:49 [cluster-ClusterId{value='6165db24dfff4500012eb0c0', description='null'}-mongodb0.sunat.peru:27017] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=mongodb0.sunat.peru:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 8]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10133296, setName='sunatRS0', canonicalAddress=mongodb0.sunat.peru:27017, hosts=[mongodb0.sunat.peru:27017], passives=[mongodb1.sunat.peru:27017, mongodb2.sunat.peru:27017], arbiters=[], primary='mongodb0.sunat.peru:27017', tagSet=TagSet{[]}, electionId=7fffffff000000000000001d, setVersion=5, lastWriteDate=Tue Oct 12 18:59:41 GMT 2021, lastUpdateTimeNanos=4060852638108950}
+2021-10-12 18:59:49.781  INFO 1 --- [unat.peru:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff000000000000001d from replica set primary mongodb0.sunat.peru:27017
+2021-10-12 18:59:49 [cluster-ClusterId{value='6165db24dfff4500012eb0c0', description='null'}-mongodb0.sunat.peru:27017] INFO  org.mongodb.driver.cluster -
+				Setting max election id to 7fffffff000000000000001d from replica set primary mongodb0.sunat.peru:27017
+2021-10-12 18:59:49.782  INFO 1 --- [unat.peru:27017] org.mongodb.driver.cluster               : Setting max set version to 5 from replica set primary mongodb0.sunat.peru:27017
+2021-10-12 18:59:49 [cluster-ClusterId{value='6165db24dfff4500012eb0c0', description='null'}-mongodb0.sunat.peru:27017] INFO  org.mongodb.driver.cluster -
+				Setting max set version to 5 from replica set primary mongodb0.sunat.peru:27017
+2021-10-12 18:59:49.782  INFO 1 --- [unat.peru:27017] org.mongodb.driver.cluster               : Discovered replica set primary mongodb0.sunat.peru:27017
+2021-10-12 18:59:49 [cluster-ClusterId{value='6165db24dfff4500012eb0c0', description='null'}-mongodb0.sunat.peru:27017] INFO  org.mongodb.driver.cluster -
+				Discovered replica set primary mongodb0.sunat.peru:27017
+2021-10-12 18:59:49.783  INFO 1 --- [unat.peru:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mongodb2.sunat.peru:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 8]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1683438, setName='sunatRS0', canonicalAddress=mongodb2.sunat.peru:27017, hosts=[mongodb0.sunat.peru:27017], passives=[mongodb1.sunat.peru:27017, mongodb2.sunat.peru:27017], arbiters=[], primary='mongodb0.sunat.peru:27017', tagSet=TagSet{[]}, electionId=null, setVersion=5, lastWriteDate=Tue Oct 12 18:59:41 GMT 2021, lastUpdateTimeNanos=4060852641030839}
+2021-10-12 18:59:49 [cluster-ClusterId{value='6165db24dfff4500012eb0c0', description='null'}-mongodb2.sunat.peru:27017] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=mongodb2.sunat.peru:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 8]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1683438, setName='sunatRS0', canonicalAddress=mongodb2.sunat.peru:27017, hosts=[mongodb0.sunat.peru:27017], passives=[mongodb1.sunat.peru:27017, mongodb2.sunat.peru:27017], arbiters=[], primary='mongodb0.sunat.peru:27017', tagSet=TagSet{[]}, electionId=null, setVersion=5, lastWriteDate=Tue Oct 12 18:59:41 GMT 2021, lastUpdateTimeNanos=4060852641030839}
+2021-10-12 18:59:52.684  INFO 1 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[mongodb0.sunat.peru:27017, mongodb1.sunat.peru:27017, mongodb2.sunat.peru:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500, requiredReplicaSetName='sunatRS0'}
+2021-10-12 18:59:52 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[mongodb0.sunat.peru:27017, mongodb1.sunat.peru:27017, mongodb2.sunat.peru:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500, requiredReplicaSetName='sunatRS0'}
+2021-10-12 18:59:52.742  INFO 1 --- [           main] org.mongodb.driver.cluster               : Adding discovered server mongodb0.sunat.peru:27017 to client view of cluster
+2021-10-12 18:59:52.748  INFO 1 --- [           main] org.mongodb.driver.cluster               : Adding discovered server mongodb1.sunat.peru:27017 to client view of cluster
+2021-10-12 18:59:52.749  INFO 1 --- [           main] org.mongodb.driver.cluster               : Adding discovered server mongodb2.sunat.peru:27017 to client view of cluster
+2021-10-12 18:59:52 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server mongodb0.sunat.peru:27017 to client view of cluster
+2021-10-12 18:59:52 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server mongodb1.sunat.peru:27017 to client view of cluster
+2021-10-12 18:59:52 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server mongodb2.sunat.peru:27017 to client view of cluster
+2021-10-12 18:59:54.179  INFO 1 --- [unat.peru:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:94760}] to mongodb1.sunat.peru:27017
+2021-10-12 18:59:54.179  INFO 1 --- [unat.peru:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:95571}] to mongodb2.sunat.peru:27017
+2021-10-12 18:59:54.243  INFO 1 --- [unat.peru:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:122722}] to mongodb0.sunat.peru:27017
+2021-10-12 18:59:54 [cluster-ClusterId{value='6165db28dfff4500012eb0c1', description='null'}-mongodb1.sunat.peru:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:4, serverValue:94760}] to mongodb1.sunat.peru:27017
+2021-10-12 18:59:54 [cluster-ClusterId{value='6165db28dfff4500012eb0c1', description='null'}-mongodb2.sunat.peru:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:5, serverValue:95571}] to mongodb2.sunat.peru:27017
+2021-10-12 18:59:54 [cluster-ClusterId{value='6165db28dfff4500012eb0c1', description='null'}-mongodb0.sunat.peru:27017] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:6, serverValue:122722}] to mongodb0.sunat.peru:27017
+2021-10-12 18:59:54.271  INFO 1 --- [unat.peru:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mongodb1.sunat.peru:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 8]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=91934396, setName='sunatRS0', canonicalAddress=mongodb1.sunat.peru:27017, hosts=[mongodb0.sunat.peru:27017], passives=[mongodb1.sunat.peru:27017, mongodb2.sunat.peru:27017], arbiters=[], primary='mongodb0.sunat.peru:27017', tagSet=TagSet{[]}, electionId=null, setVersion=5, lastWriteDate=Tue Oct 12 18:59:51 GMT 2021, lastUpdateTimeNanos=4060857129236731}
+2021-10-12 18:59:54.275  INFO 1 --- [unat.peru:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mongodb2.sunat.peru:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 8]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=95105333, setName='sunatRS0', canonicalAddress=mongodb2.sunat.peru:27017, hosts=[mongodb0.sunat.peru:27017], passives=[mongodb1.sunat.peru:27017, mongodb2.sunat.peru:27017], arbiters=[], primary='mongodb0.sunat.peru:27017', tagSet=TagSet{[]}, electionId=null, setVersion=5, lastWriteDate=Tue Oct 12 18:59:51 GMT 2021, lastUpdateTimeNanos=4060857132491307}
+2021-10-12 18:59:54 [cluster-ClusterId{value='6165db28dfff4500012eb0c1', description='null'}-mongodb1.sunat.peru:27017] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=mongodb1.sunat.peru:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 8]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=91934396, setName='sunatRS0', canonicalAddress=mongodb1.sunat.peru:27017, hosts=[mongodb0.sunat.peru:27017], passives=[mongodb1.sunat.peru:27017, mongodb2.sunat.peru:27017], arbiters=[], primary='mongodb0.sunat.peru:27017', tagSet=TagSet{[]}, electionId=null, setVersion=5, lastWriteDate=Tue Oct 12 18:59:51 GMT 2021, lastUpdateTimeNanos=4060857129236731}
+2021-10-12 18:59:54 [cluster-ClusterId{value='6165db28dfff4500012eb0c1', description='null'}-mongodb2.sunat.peru:27017] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=mongodb2.sunat.peru:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 8]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=95105333, setName='sunatRS0', canonicalAddress=mongodb2.sunat.peru:27017, hosts=[mongodb0.sunat.peru:27017], passives=[mongodb1.sunat.peru:27017, mongodb2.sunat.peru:27017], arbiters=[], primary='mongodb0.sunat.peru:27017', tagSet=TagSet{[]}, electionId=null, setVersion=5, lastWriteDate=Tue Oct 12 18:59:51 GMT 2021, lastUpdateTimeNanos=4060857132491307}
+2021-10-12 18:59:54.276  INFO 1 --- [unat.peru:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mongodb0.sunat.peru:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 8]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=32358891, setName='sunatRS0', canonicalAddress=mongodb0.sunat.peru:27017, hosts=[mongodb0.sunat.peru:27017], passives=[mongodb1.sunat.peru:27017, mongodb2.sunat.peru:27017], arbiters=[], primary='mongodb0.sunat.peru:27017', tagSet=TagSet{[]}, electionId=7fffffff000000000000001d, setVersion=5, lastWriteDate=Tue Oct 12 18:59:51 GMT 2021, lastUpdateTimeNanos=4060857133993352}
+2021-10-12 18:59:54.357  INFO 1 --- [unat.peru:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff000000000000001d from replica set primary mongodb0.sunat.peru:27017
+2021-10-12 18:59:54.357  INFO 1 --- [unat.peru:27017] org.mongodb.driver.cluster               : Setting max set version to 5 from replica set primary mongodb0.sunat.peru:27017
+2021-10-12 18:59:54.357  INFO 1 --- [unat.peru:27017] org.mongodb.driver.cluster               : Discovered replica set primary mongodb0.sunat.peru:27017
+2021-10-12 18:59:54 [cluster-ClusterId{value='6165db28dfff4500012eb0c1', description='null'}-mongodb0.sunat.peru:27017] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=mongodb0.sunat.peru:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 8]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=32358891, setName='sunatRS0', canonicalAddress=mongodb0.sunat.peru:27017, hosts=[mongodb0.sunat.peru:27017], passives=[mongodb1.sunat.peru:27017, mongodb2.sunat.peru:27017], arbiters=[], primary='mongodb0.sunat.peru:27017', tagSet=TagSet{[]}, electionId=7fffffff000000000000001d, setVersion=5, lastWriteDate=Tue Oct 12 18:59:51 GMT 2021, lastUpdateTimeNanos=4060857133993352}
+2021-10-12 18:59:54 [cluster-ClusterId{value='6165db28dfff4500012eb0c1', description='null'}-mongodb0.sunat.peru:27017] INFO  org.mongodb.driver.cluster -
+				Setting max election id to 7fffffff000000000000001d from replica set primary mongodb0.sunat.peru:27017
+2021-10-12 18:59:54 [cluster-ClusterId{value='6165db28dfff4500012eb0c1', description='null'}-mongodb0.sunat.peru:27017] INFO  org.mongodb.driver.cluster -
+				Setting max set version to 5 from replica set primary mongodb0.sunat.peru:27017
+2021-10-12 18:59:54 [cluster-ClusterId{value='6165db28dfff4500012eb0c1', description='null'}-mongodb0.sunat.peru:27017] INFO  org.mongodb.driver.cluster -
+				Discovered replica set primary mongodb0.sunat.peru:27017
+2021-10-12 18:59:59.755  INFO 1 --- [           main] c.e.blockchain.cadena.lib.HttpService    : request: /liveness
+2021-10-12 18:59:59 [main] INFO  c.e.b.cadena.lib.HttpService -
+				request: /liveness
+2021-10-12 19:00:00.460  INFO 1 --- [           main] c.e.blockchain.cadena.lib.HttpService    : response: {
+  "status" : "UP"
+}
+2021-10-12 19:00:00 [main] INFO  c.e.b.cadena.lib.HttpService -
+				response: {
+  "status" : "UP"
+}
+2021-10-12 19:00:00.853  INFO 1 --- [           main] c.e.blockchain.cadena.lib.HttpService    : request: /readiness
+2021-10-12 19:00:00 [main] INFO  c.e.b.cadena.lib.HttpService -
+				request: /readiness
+2021-10-12 19:00:00.957  INFO 1 --- [           main] c.e.blockchain.cadena.lib.HttpService    : response: {
+  "status" : "UP"
+}
+2021-10-12 19:00:00 [main] INFO  c.e.b.cadena.lib.HttpService -
+				response: {
+  "status" : "UP"
+}
+2021-10-12 19:00:00.959  INFO 1 --- [           main] c.c.p.config.ApplicationBlockChain       : serverBlockChain=https://191.169.40.61
+2021-10-12 19:00:00.960  INFO 1 --- [           main] c.c.p.config.ApplicationBlockChain       : getPrivateKey ===0xbe50fadb5c4f86fa5e694af351ae19e61aaff6c3dcd1a7aa46b825ff717f484b
+2021-10-12 19:00:00.960  INFO 1 --- [           main] c.c.p.config.ApplicationBlockChain       : applicationProperties.getAddressAOE()==0x96ccf274af82b44be0c4627c9d413aca9a4164e2
+2021-10-12 19:00:00.960  INFO 1 --- [           main] c.c.p.config.ApplicationBlockChain       : getAddressIM()==0xa6b4540a2bfbe8663caa78027c83d0dcb1b7c837
+2021-10-12 19:00:00 [main] INFO  c.c.p.config.ApplicationBlockChain -
+				serverBlockChain=https://191.169.40.61
+2021-10-12 19:00:00 [main] INFO  c.c.p.config.ApplicationBlockChain -
+				getPrivateKey ===0xbe50fadb5c4f86fa5e694af351ae19e61aaff6c3dcd1a7aa46b825ff717f484b
+2021-10-12 19:00:00 [main] INFO  c.c.p.config.ApplicationBlockChain -
+				applicationProperties.getAddressAOE()==0x96ccf274af82b44be0c4627c9d413aca9a4164e2
+2021-10-12 19:00:00 [main] INFO  c.c.p.config.ApplicationBlockChain -
+				getAddressIM()==0xa6b4540a2bfbe8663caa78027c83d0dcb1b7c837
+2021-10-12 19:00:03.552  INFO 1 --- [           main] c.c.p.config.ApplicationBlockChain       : iDigitalIdentity, OK
+2021-10-12 19:00:03 [main] INFO  c.c.p.config.ApplicationBlockChain -
+				iDigitalIdentity, OK
+2021-10-12 19:00:03.753  INFO 1 --- [           main] c.c.p.config.ApplicationBlockChain       : iaeom, OK
+2021-10-12 19:00:03 [main] INFO  c.c.p.config.ApplicationBlockChain -
+				iaeom, OK
+2021-10-12 19:00:09.457  INFO 1 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8085
+2021-10-12 19:00:09 [main] INFO  o.s.b.w.e.netty.NettyWebServer -
+				Netty started on port(s): 8085
+2021-10-12 19:00:09.461  INFO 1 --- [           main] com.cadena.provider.MsUserApplication    : Started MsUserApplication in 47.5 seconds (JVM running for 50.576)
+2021-10-12 19:00:09 [main] INFO  c.cadena.provider.MsUserApplication -
+				Started MsUserApplication in 47.5 seconds (JVM running for 50.576)
